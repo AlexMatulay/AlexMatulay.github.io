@@ -36,7 +36,11 @@
         <div class="chart" id="Chart2"> </div>
 
         <h3>Week 2</h3>
+        <h3>IMF lending outstanding in $ billions</h3>
         <div class="chart" id="Chart3"></div>
+        <h3>IMF Lending outstanding as a % of World GDP</h3>
+        <div class="chart" id="Chart4"></div>
+        <p>IMF lent more in 1984 compared to the world GDP. This implies that the year 1984 was a riskier year</p>
     </div> 
 </body>
 
@@ -46,11 +50,13 @@
     var myChart1 = "chart3.json";
     var myChart2 = "chart4.json";
     var myChart3 = "chart5.json";
+    var myChart4 = "chart6.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>
