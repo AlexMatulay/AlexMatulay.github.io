@@ -27,6 +27,7 @@
     <div class="myWeek1">
         <h1>Welcome to my website</h1>
         
+        <h3>Week 1</h3>
         <h3>Productivity</h3>
         <p>The first chart describes productivity in 2020</p>
         <div class="chart" id="Chart1"></div>
@@ -41,6 +42,21 @@
         <h3>IMF Lending outstanding as a % of World GDP</h3>
         <div class="chart" id="Chart4"></div>
         <p>IMF lent more in 1984 compared to the world GDP. This implies that the year 1984 was a riskier year</p>
+
+        <h3>Week 3</h3>
+        <h3>Real GDP long term forecast</h3>
+        <div class="chart" id="Chart6"></div>
+        <div class="chart" id="Chart5"></div>
+        <p>The first chart is a stacked bar chart whereas the second one is a line chart where it is easier to see the differences between the countries</p>
+    
+        <h3>Week 4</h3>
+        <h3>Global poker Rankings</h3>
+        <div class="chart" id="Chart7"></div>
+        <p>clicke here for the google collab file:
+            https://colab.research.google.com/drive/1nFttDGd9tN9AD9J1n1_jZdLzJ3xwRD1-?usp=sharing  </p>
+        <p>I chose this site because it didn't prevent me from scraping their data and I got the exact data needed</p>
+        
+        <h3>Week 5</h3>
     </div> 
 </body>
 
@@ -51,12 +67,18 @@
     var myChart2 = "chart4.json";
     var myChart3 = "chart5.json";
     var myChart4 = "chart6.json";
+    var myChart5 = "chart7.json";
+    var myChart6 = "chart8.json";
+    var myChart7 = "poker.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
 </script>
 
 </html>

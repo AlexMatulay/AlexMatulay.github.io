@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "title": {
+      "text": "Global Poker Ranking",
+      "subtitle": "Top 10 Global Poker Raning by GPI, Source: globalpokerindex.com",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "values": [{"Rank": "#1", "Player": "Chance Kornuth", "Score": "3482"}, {"Rank": "#2", "Player": "Adam Hendrix", "Score": "3415"}, {"Rank": "#3", "Player": "William Alex Foxen", "Score": "3347"}, {"Rank": "#4", "Player": "Jeremy \"TheTaker\" Ausmus", "Score": "3323"}, {"Rank": "#5", "Player": "Sean Winter", "Score": "3224"}, {"Rank": "#6", "Player": "Stephen Song", "Score": "3180"}, {"Rank": "#7", "Player": "Chad Eveslage", "Score": "3171"}, {"Rank": "#8", "Player": "Brock Wilson", "Score": "3159"}, {"Rank": "#9", "Player": "Stephen Chidwick", "Score": "3090"}, {"Rank": "#10", "Player": "Christopher Brewer", "Score": "3047"}]
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "Score", "type": "quantitative",  "axis": {"labelAngle": 0}},
+      "y": {"field": "Player", "type": "nominal", "sort": "quantitative", "title": "" }
+      
+    }
+    
+  }
