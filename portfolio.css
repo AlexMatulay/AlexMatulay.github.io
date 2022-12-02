@@ -1,52 +1,10 @@
-
-
-
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 
 /* Set the background color for my page: */
 body{
     background-color: rgb(150, 150, 150);
  
-}
-
-/*Buttons*/
-.link{
-    background-color: rgba(1, 9, 18, 0.5);
-
-    padding:10px;
-    
-    border:2px;
-    border-color:grey;
-    border-style: solid;
-    border-radius: 10px;
-
-    font-family: 'Roboto', sans-serif;
-    font-weight:700;
-    color:white;
-    text-decoration: none;
-}
-.links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-a{
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-    margin: auto;
-}
-
-.link:hover{
-
-    background-color: #000000;
-
-    border:2px;
-    border-color:rgb(0, 0, 0);
-    border-style: solid;
-    
 }
 
 /* Choose the appearance of the tags, h1, h3 and p: */
@@ -73,10 +31,3 @@ h1, h3, p{
 .grid-container {
     grid-template-columns: auto auto auto;
   }
-
-
-    
-
-    
-
-    
