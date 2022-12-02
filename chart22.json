@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Real GDP long-term forecast",
+    "title": {
+      "text": "Consumer price inflation basket of goods and services: 2022 UK",
+      "subtitle": "March 2022, Source: ons.gov.uk",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "values": 
+        [{"CPIH": "Food & non-alcoholic beverages", "CPIH  weight": 9.3}, {"CPIH": "Alcohol & tobacco", "CPIH  weight": 3.9}, {"CPIH": "Clothing & footwear", "CPIH  weight": 4.9}, {"CPIH": "Housing & household services", "CPIH  weight": 31.4}, {"CPIH": "Furniture & household goods", "CPIH  weight": 6.3}, {"CPIH": "Health", "CPIH  weight": 1.8}, {"CPIH": "Transport", "CPIH  weight": 11.1}, {"CPIH": "Communication", "CPIH  weight": 1.9}, {"CPIH": "Recreation & culture", "CPIH  weight": 10.5}, {"CPIH": "Education", "CPIH  weight": 2.6}, {"CPIH": "Restaurants & hotels", "CPIH  weight": 9.0}, {"CPIH": "Miscellaneous goods & services", "CPIH  weight": 7.3}]
+      
+    },
+    "mark": {"type": "bar"},
+    "encoding": {
+      "x": {"field": "CPIH  weight", "type": "quantitative", "title": "% of the total basket"},
+      "y": {"field": "CPIH", "type": "nominal", "sort": "-x", "title": ""}
+      
+    }
+  }

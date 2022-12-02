@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Real GDP long-term forecast",
+    "title": {
+      "text": "Consumer price inflation UK",
+      "subtitle": "October 2022, Source: ons.gov.uk",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "values": 
+        [{"CPIH": "CPIH All items", "Oct-22": "9.6"}, {"CPIH": "Food and non-alcoholic\nbeverages", "Oct-22": "16.4"}, {"CPIH": "Alcohol and tobacco", "Oct-22": "6.2"}, {"CPIH": "Clothing and footwear", "Oct-22": "8.5"}, {"CPIH": "Housing and household\nservices", "Oct-22": "11.7"}, {"CPIH": "of which owner occupiers'\nhousing costs", "Oct-22": "3.6"}, {"CPIH": "Furniture and household\ngoods", "Oct-22": "10.6"}, {"CPIH": "Health", "Oct-22": "4.2"}, {"CPIH": "Transport", "Oct-22": "9.3"}, {"CPIH": "Communication", "Oct-22": "3.2"}, {"CPIH": "Recreation and culture", "Oct-22": "5.9"}, {"CPIH": "Education", "Oct-22": "3.2"}, {"CPIH": "Restaurants and hotels", "Oct-22": "9.6"}, {"CPIH": "Miscellaneous goods\nand services", "Oct-22": "5.1"}]
+      
+    },
+    "mark": {"type": "bar"},
+    "encoding": {
+      "x": {"field": "Oct-22", "type": "quantitative", "title": "Ocotber 2022 12-month inflation rate (%)"},
+      "y": {"field": "CPIH", "type": "nominal", "sort": "-x", "title": ""}
+      
+    }
+  }
