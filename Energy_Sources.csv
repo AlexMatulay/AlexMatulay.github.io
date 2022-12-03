@@ -50,7 +50,7 @@ Ireland,Other,4
 Greece,Solid fossil fuels,8
 Greece,Natural gas,22
 Greece,Oil and petroleum products (excluding biofuel portion),51
-Greece,Renewables and biofuels,15
+Greece,Renewables and biofuels,16
 Greece,Nuclear heat,0
 Greece,Other,3
 Spain,Solid fossil fuels,4
@@ -60,9 +60,9 @@ Spain,Renewables and biofuels,16
 Spain,Nuclear heat,13
 Spain,Other,0
 France,Solid fossil fuels,2
-France,Natural gas,16
+France,Natural gas,15
 France,Oil and petroleum products (excluding biofuel portion),29
-France,Renewables and biofuels,15
+France,Renewables and biofuels,14
 France,Nuclear heat,40
 France,Other,0
 Croatia,Solid fossil fuels,5
@@ -125,12 +125,12 @@ Austria,Oil and petroleum products (excluding biofuel portion),34
 Austria,Renewables and biofuels,35
 Austria,Nuclear heat,0
 Austria,Other,1
-Poland,Solid fossil fuels,40
-Poland,Natural gas,17
-Poland,Oil and petroleum products (excluding biofuel portion),30
+Poland,Solid fossil fuels,39
+Poland,Natural gas,16
+Poland,Oil and petroleum products (excluding biofuel portion),29
 Poland,Renewables and biofuels,13
 Poland,Nuclear heat,0
-Poland,Other,1
+Poland,Other,2
 Portugal,Solid fossil fuels,3
 Portugal,Natural gas,23
 Portugal,Oil and petroleum products (excluding biofuel portion),45
