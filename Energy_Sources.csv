@@ -23,8 +23,8 @@ Czechia,Oil and petroleum products (excluding biofuel portion),0.21,
 Czechia,Renewables and biofuels,0.13,
 Czechia,Nuclear heat,0.17,
 Czechia,Other,0.01,
-Denmark,Solid fossil fuels,0.04,1.00
-Denmark,Natural gas,0.13,
+Denmark,Solid fossil fuels,0.04,0.99
+Denmark,Natural gas,0.12,
 Denmark,Oil and petroleum products (excluding biofuel portion),0.39,
 Denmark,Renewables and biofuels,0.38,
 Denmark,Nuclear heat,0.00,
@@ -53,8 +53,8 @@ Greece,Oil and petroleum products (excluding biofuel portion),0.51,
 Greece,Renewables and biofuels,0.15,
 Greece,Nuclear heat,0.00,
 Greece,Other,0.03,
-Spain,Solid fossil fuels,0.04,1.01
-Spain,Natural gas,0.24,
+Spain,Solid fossil fuels,0.04,1.00
+Spain,Natural gas,0.23,
 Spain,Oil and petroleum products (excluding biofuel portion),0.44,
 Spain,Renewables and biofuels,0.16,
 Spain,Nuclear heat,0.13,
@@ -161,8 +161,8 @@ Finland,Oil and petroleum products (excluding biofuel portion),0.25,
 Finland,Renewables and biofuels,0.38,
 Finland,Nuclear heat,0.17,
 Finland,Other,0.08,
-Sweden,Solid fossil fuels,0.03,1.00
-Sweden,Natural gas,0.03,
+Sweden,Solid fossil fuels,0.03,0.99
+Sweden,Natural gas,0.02,
 Sweden,Oil and petroleum products (excluding biofuel portion),0.23,
 Sweden,Renewables and biofuels,0.50,
 Sweden,Nuclear heat,0.22,
