@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+<body>
+   <h1>Data Science project 2022</h1> 
+   <h1>Alex Matulay</h1>
+<h2>Energy in the EU</h2>
+<p>This chart visualizes the energy mix in the 27 EU countries.</p>
+<div class="chart" id="Chart1"></div>
+<p>Taking a closer look at the total energy mix in the EU, we can see that the majority is 
+    covered by non-renewable sources of energy such as oil and natural gas.
+</p>
+<p>The low carbon sources account for only around 30% of the total energy mix in the EU.</p>
+<div class="chart" id="Chart2"></div>
+<div class="chart" id="Chart3"></div>
+</body>
+<script>
+    //Define charts:
+    var myChart1 = "Sources_across_EU.json";
+    var myChart2 = "EU27_Energy_mix.json";
+    var myChart3 = "Active_Nuclear_Reactors.json";
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+</script>    
+</html>

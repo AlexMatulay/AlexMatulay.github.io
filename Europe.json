@@ -1,0 +1,34 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 600,
+    "title": {
+      "text": "Europe",
+      "fontSize":"20",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 20,
+      "anchor": "middle",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson",
+      "format": {"property": "features"}
+    },
+    "projection": {"type": "mercator"},
+    "mark": {
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5,
+      "fill": "lightgrey"
+    },
+    "encoding": {
+      "tooltip": [
+        {
+          "field": "properties.NAME",
+          "type": "nominal",
+          "title": "Country"
+        }
+      ]
+    }
+  }

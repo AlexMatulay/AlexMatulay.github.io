@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A bar chart that directly encodes color names in the data.",
+    "data": { "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/EU_energy_mix.csv"
+    },
+    "title":{
+      "text": "Energy mix in the 27 EU countries in 2020",
+      "subtitle": "Source: Eurostat",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "height":300,
+    "width":300,
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Source of Energy",
+        "type": "nominal",
+        "sort":"-x",
+        "title":""
+      },
+      "x": {
+        "field": "Value",
+        "type": "quantitative",
+        "axis":{"format":"%"},
+        "title":""   
+        },
+      "color": {
+        "field": "Source of Energy",
+        "type": "nominal",
+        "legend":""
+        
+      }
+    }
+  }
+  
