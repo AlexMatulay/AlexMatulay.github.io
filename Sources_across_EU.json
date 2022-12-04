@@ -11,7 +11,7 @@
       "color": "black"
     },
     "mark": "bar",
-    "height":500,
+    "height":300,
     "width":300,
     
     
@@ -27,14 +27,20 @@
         "type": "quantitative",
         "title": "",
          "aggregate": "sum",
-         "axis":{"format":"%"}
+         "axis":{"format":"%"},
+         "scale": {"domain": [0, 1]}
       
       },
       "color": {
         "field": "Source of Energy",
-        "legend":{"orient": "right"}
-      }
-    
+        "legend":{"orient": "bottom", "direction": "vertical", "labelFontSize": 10, "titleAlign":"left"}
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {"field": "Source of Energy", "type": "nominal", "title": ""},
+        {"field": "Percentage", "type": "nominal", "title": "Percentage of the total mix"}
+        
+    ]
       }
     
     }

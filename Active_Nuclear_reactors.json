@@ -40,7 +40,7 @@
       "color": {
         "field": "in operation",
         
-        "legend": {"title": null, "orient": "right", "direction": "vertical"},
+        "legend": {"title": "Active nuclear reactors", "titleFontSize":11, "orient": "top-left", "direction": "horizontal"},
         "type": "quantitative",
         "scale": {"scheme": "turbo"}
         
