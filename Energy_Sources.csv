@@ -1,175 +1,175 @@
-Country,Source of Energy,Value,
-European Union,Solid fossil fuels,0.10,
-European Union,Natural gas,0.24,
-European Union,Oil and petroleum products (excluding biofuel portion),0.34,
-European Union,Renewables and biofuels,0.17,
-European Union,Nuclear heat,0.13,
-European Union,Other,0.02,
-Belgium,Solid fossil fuels,0.04,
-Belgium,Natural gas,0.26,
-Belgium,Oil and petroleum products (excluding biofuel portion),0.45,
-Belgium,Renewables and biofuels,0.09,
-Belgium,Nuclear heat,0.14,
-Belgium,Other,0.02,
-Bulgaria,Solid fossil fuels,0.24,
-Bulgaria,Natural gas,0.14,
-Bulgaria,Oil and petroleum products (excluding biofuel portion),0.25,
-Bulgaria,Renewables and biofuels,0.14,
-Bulgaria,Nuclear heat,0.23,
-Bulgaria,Other,0.00,
-Czechia,Solid fossil fuels,0.30,
-Czechia,Natural gas,0.18,
-Czechia,Oil and petroleum products (excluding biofuel portion),0.21,
-Czechia,Renewables and biofuels,0.13,
-Czechia,Nuclear heat,0.17,
-Czechia,Other,0.01,
-Denmark,Solid fossil fuels,0.04,
-Denmark,Natural gas,0.12,
-Denmark,Oil and petroleum products (excluding biofuel portion),0.39,
-Denmark,Renewables and biofuels,0.38,
-Denmark,Nuclear heat,0.00,
-Denmark,Other,0.07,
-Germany,Solid fossil fuels,0.16,
-Germany,Natural gas,0.26,
-Germany,Oil and petroleum products (excluding biofuel portion),0.35,
-Germany,Renewables and biofuels,0.16,
-Germany,Nuclear heat,0.05,
-Germany,Other,0.02,
-Estonia,Solid fossil fuels,0.00,
-Estonia,Natural gas,0.08,
-Estonia,Oil and petroleum products (excluding biofuel portion),0.05,
-Estonia,Renewables and biofuels,0.27,
-Estonia,Nuclear heat,0.00,
-Estonia,Other,0.60,
-Ireland,Solid fossil fuels,0.04,
-Ireland,Natural gas,0.33,
-Ireland,Oil and petroleum products (excluding biofuel portion),0.46,
-Ireland,Renewables and biofuels,0.13,
-Ireland,Nuclear heat,0.00,
-Ireland,Other,0.04,
-Greece,Solid fossil fuels,0.08,
-Greece,Natural gas,0.22,
-Greece,Oil and petroleum products (excluding biofuel portion),0.51,
-Greece,Renewables and biofuels,0.16,
-Greece,Nuclear heat,0.00,
-Greece,Other,0.03,
-Spain,Solid fossil fuels,0.04,
-Spain,Natural gas,0.23,
-Spain,Oil and petroleum products (excluding biofuel portion),0.44,
-Spain,Renewables and biofuels,0.16,
-Spain,Nuclear heat,0.13,
-Spain,Other,0.00,
-France,Solid fossil fuels,0.02,
-France,Natural gas,0.15,
-France,Oil and petroleum products (excluding biofuel portion),0.29,
-France,Renewables and biofuels,0.14,
-France,Nuclear heat,0.40,
-France,Other,0.00,
-Croatia,Solid fossil fuels,0.05,
-Croatia,Natural gas,0.30,
-Croatia,Oil and petroleum products (excluding biofuel portion),0.34,
-Croatia,Renewables and biofuels,0.26,
-Croatia,Nuclear heat,0.00,
-Croatia,Other,0.05,
-Italy,Solid fossil fuels,0.04,
-Italy,Natural gas,0.40,
-Italy,Oil and petroleum products (excluding biofuel portion),0.33,
-Italy,Renewables and biofuels,0.20,
-Italy,Nuclear heat,0.00,
-Italy,Other,0.03,
-Cyprus,Solid fossil fuels,0.01,
-Cyprus,Natural gas,0.00,
-Cyprus,Oil and petroleum products (excluding biofuel portion),0.87,
-Cyprus,Renewables and biofuels,0.11,
-Cyprus,Nuclear heat,0.00,
-Cyprus,Other,0.01,
-Latvia,Solid fossil fuels,0.01,
-Latvia,Natural gas,0.20,
-Latvia,Oil and petroleum products (excluding biofuel portion),0.36,
-Latvia,Renewables and biofuels,0.39,
-Latvia,Nuclear heat,0.00,
-Latvia,Other,0.04,
-Lithuania,Solid fossil fuels,0.02,
-Lithuania,Natural gas,0.26,
-Lithuania,Oil and petroleum products (excluding biofuel portion),0.39,
-Lithuania,Renewables and biofuels,0.21,
-Lithuania,Nuclear heat,0.00,
-Lithuania,Other,0.12,
-Luxembourg,Solid fossil fuels,0.01,
-Luxembourg,Natural gas,0.16,
-Luxembourg,Oil and petroleum products (excluding biofuel portion),0.60,
-Luxembourg,Renewables and biofuels,0.11,
-Luxembourg,Nuclear heat,0.00,
-Luxembourg,Other,0.12,
-Hungary,Solid fossil fuels,0.06,
-Hungary,Natural gas,0.34,
-Hungary,Oil and petroleum products (excluding biofuel portion),0.29,
-Hungary,Renewables and biofuels,0.11,
-Hungary,Nuclear heat,0.15,
-Hungary,Other,0.05,
-Malta,Solid fossil fuels,0.00,
-Malta,Natural gas,0.11,
-Malta,Oil and petroleum products (excluding biofuel portion),0.86,
-Malta,Renewables and biofuels,0.02,
-Malta,Nuclear heat,0.00,
-Malta,Other,0.01,
-Netherlands,Solid fossil fuels,0.05,
-Netherlands,Natural gas,0.38,
-Netherlands,Oil and petroleum products (excluding biofuel portion),0.47,
-Netherlands,Renewables and biofuels,0.09,
-Netherlands,Nuclear heat,0.01,
-Netherlands,Other,0.00,
-Austria,Solid fossil fuels,0.07,
-Austria,Natural gas,0.23,
-Austria,Oil and petroleum products (excluding biofuel portion),0.34,
-Austria,Renewables and biofuels,0.35,
-Austria,Nuclear heat,0.00,
-Austria,Other,0.01,
-Poland,Solid fossil fuels,0.39,
-Poland,Natural gas,0.16,
-Poland,Oil and petroleum products (excluding biofuel portion),0.29,
-Poland,Renewables and biofuels,0.14,
-Poland,Nuclear heat,0.00,
-Poland,Other,0.02,
-Portugal,Solid fossil fuels,0.03,
-Portugal,Natural gas,0.23,
-Portugal,Oil and petroleum products (excluding biofuel portion),0.45,
-Portugal,Renewables and biofuels,0.29,
-Portugal,Nuclear heat,0.00,
-Portugal,Other,0.00,
-Romania,Solid fossil fuels,0.11,
-Romania,Natural gas,0.30,
-Romania,Oil and petroleum products (excluding biofuel portion),0.30,
-Romania,Renewables and biofuels,0.20,
-Romania,Nuclear heat,0.08,
-Romania,Other,0.01,
-Slovenia,Solid fossil fuels,0.16,
-Slovenia,Natural gas,0.11,
-Slovenia,Oil and petroleum products (excluding biofuel portion),0.34,
-Slovenia,Renewables and biofuels,0.18,
-Slovenia,Nuclear heat,0.20,
-Slovenia,Other,0.01,
-Slovakia,Solid fossil fuels,0.14,
-Slovakia,Natural gas,0.25,
-Slovakia,Oil and petroleum products (excluding biofuel portion),0.22,
-Slovakia,Renewables and biofuels,0.13,
-Slovakia,Nuclear heat,0.26,
-Slovakia,Other,0.00,
-Finland,Solid fossil fuels,0.05,
-Finland,Natural gas,0.07,
-Finland,Oil and petroleum products (excluding biofuel portion),0.25,
-Finland,Renewables and biofuels,0.38,
-Finland,Nuclear heat,0.17,
-Finland,Other,0.08,
-Sweden,Solid fossil fuels,0.03,
-Sweden,Natural gas,0.02,
-Sweden,Oil and petroleum products (excluding biofuel portion),0.23,
-Sweden,Renewables and biofuels,0.50,
-Sweden,Nuclear heat,0.22,
-Sweden,Other,0.00,
-Norway,Solid fossil fuels,0.03,
-Norway,Natural gas,0.16,
-Norway,Oil and petroleum products (excluding biofuel portion),0.32,
-Norway,Renewables and biofuels,0.49,
-Norway,Nuclear heat,0.00,
-Norway,Other,0.00,
+Country,Source of Energy,Value,Percentage
+European Union,Solid fossil fuels,0.10,10%
+European Union,Natural gas,0.24,24%
+European Union, Oil and petroleum products,0.34,34%
+European Union,Renewables and biofuels,0.17,17%
+European Union,Nuclear heat,0.13,13%
+European Union,Other,0.02,2%
+Belgium,Solid fossil fuels,0.04,4%
+Belgium,Natural gas,0.26,26%
+Belgium, Oil and petroleum products,0.45,45%
+Belgium,Renewables and biofuels,0.09,9%
+Belgium,Nuclear heat,0.14,14%
+Belgium,Other,0.02,2%
+Bulgaria,Solid fossil fuels,0.24,24%
+Bulgaria,Natural gas,0.14,14%
+Bulgaria, Oil and petroleum products,0.25,25%
+Bulgaria,Renewables and biofuels,0.14,14%
+Bulgaria,Nuclear heat,0.23,23%
+Bulgaria,Other,0.00,0%
+Czechia,Solid fossil fuels,0.30,30%
+Czechia,Natural gas,0.18,18%
+Czechia, Oil and petroleum products,0.21,21%
+Czechia,Renewables and biofuels,0.13,13%
+Czechia,Nuclear heat,0.17,17%
+Czechia,Other,0.01,1%
+Denmark,Solid fossil fuels,0.04,4%
+Denmark,Natural gas,0.12,12%
+Denmark, Oil and petroleum products,0.39,39%
+Denmark,Renewables and biofuels,0.38,38%
+Denmark,Nuclear heat,0.00,0%
+Denmark,Other,0.07,7%
+Germany,Solid fossil fuels,0.16,16%
+Germany,Natural gas,0.26,26%
+Germany, Oil and petroleum products,0.35,35%
+Germany,Renewables and biofuels,0.16,16%
+Germany,Nuclear heat,0.05,5%
+Germany,Other,0.02,2%
+Estonia,Solid fossil fuels,0.00,0%
+Estonia,Natural gas,0.08,8%
+Estonia, Oil and petroleum products,0.05,5%
+Estonia,Renewables and biofuels,0.27,27%
+Estonia,Nuclear heat,0.00,0%
+Estonia,Other,0.60,60%
+Ireland,Solid fossil fuels,0.04,4%
+Ireland,Natural gas,0.33,33%
+Ireland, Oil and petroleum products,0.46,46%
+Ireland,Renewables and biofuels,0.13,13%
+Ireland,Nuclear heat,0.00,0%
+Ireland,Other,0.04,4%
+Greece,Solid fossil fuels,0.08,8%
+Greece,Natural gas,0.22,22%
+Greece, Oil and petroleum products,0.51,51%
+Greece,Renewables and biofuels,0.16,16%
+Greece,Nuclear heat,0.00,0%
+Greece,Other,0.03,3%
+Spain,Solid fossil fuels,0.04,4%
+Spain,Natural gas,0.23,23%
+Spain, Oil and petroleum products,0.44,44%
+Spain,Renewables and biofuels,0.16,16%
+Spain,Nuclear heat,0.13,13%
+Spain,Other,0.00,0%
+France,Solid fossil fuels,0.02,2%
+France,Natural gas,0.15,15%
+France, Oil and petroleum products,0.29,29%
+France,Renewables and biofuels,0.14,14%
+France,Nuclear heat,0.40,40%
+France,Other,0.00,0%
+Croatia,Solid fossil fuels,0.05,5%
+Croatia,Natural gas,0.30,30%
+Croatia, Oil and petroleum products,0.34,34%
+Croatia,Renewables and biofuels,0.26,26%
+Croatia,Nuclear heat,0.00,0%
+Croatia,Other,0.05,5%
+Italy,Solid fossil fuels,0.04,4%
+Italy,Natural gas,0.40,40%
+Italy, Oil and petroleum products,0.33,33%
+Italy,Renewables and biofuels,0.20,20%
+Italy,Nuclear heat,0.00,0%
+Italy,Other,0.03,3%
+Cyprus,Solid fossil fuels,0.01,1%
+Cyprus,Natural gas,0.00,0%
+Cyprus, Oil and petroleum products,0.87,87%
+Cyprus,Renewables and biofuels,0.11,11%
+Cyprus,Nuclear heat,0.00,0%
+Cyprus,Other,0.01,1%
+Latvia,Solid fossil fuels,0.01,1%
+Latvia,Natural gas,0.20,20%
+Latvia, Oil and petroleum products,0.36,36%
+Latvia,Renewables and biofuels,0.39,39%
+Latvia,Nuclear heat,0.00,0%
+Latvia,Other,0.04,4%
+Lithuania,Solid fossil fuels,0.02,2%
+Lithuania,Natural gas,0.26,26%
+Lithuania, Oil and petroleum products,0.39,39%
+Lithuania,Renewables and biofuels,0.21,21%
+Lithuania,Nuclear heat,0.00,0%
+Lithuania,Other,0.12,12%
+Luxembourg,Solid fossil fuels,0.01,1%
+Luxembourg,Natural gas,0.16,16%
+Luxembourg, Oil and petroleum products,0.60,60%
+Luxembourg,Renewables and biofuels,0.11,11%
+Luxembourg,Nuclear heat,0.00,0%
+Luxembourg,Other,0.12,12%
+Hungary,Solid fossil fuels,0.06,6%
+Hungary,Natural gas,0.34,34%
+Hungary, Oil and petroleum products,0.29,29%
+Hungary,Renewables and biofuels,0.11,11%
+Hungary,Nuclear heat,0.15,15%
+Hungary,Other,0.05,5%
+Malta,Solid fossil fuels,0.00,0%
+Malta,Natural gas,0.11,11%
+Malta, Oil and petroleum products,0.86,86%
+Malta,Renewables and biofuels,0.02,2%
+Malta,Nuclear heat,0.00,0%
+Malta,Other,0.01,1%
+Netherlands,Solid fossil fuels,0.05,5%
+Netherlands,Natural gas,0.38,38%
+Netherlands, Oil and petroleum products,0.47,47%
+Netherlands,Renewables and biofuels,0.09,9%
+Netherlands,Nuclear heat,0.01,1%
+Netherlands,Other,0.00,0%
+Austria,Solid fossil fuels,0.07,7%
+Austria,Natural gas,0.23,23%
+Austria, Oil and petroleum products,0.34,34%
+Austria,Renewables and biofuels,0.35,35%
+Austria,Nuclear heat,0.00,0%
+Austria,Other,0.01,1%
+Poland,Solid fossil fuels,0.39,39%
+Poland,Natural gas,0.16,16%
+Poland, Oil and petroleum products,0.29,29%
+Poland,Renewables and biofuels,0.14,14%
+Poland,Nuclear heat,0.00,0%
+Poland,Other,0.02,2%
+Portugal,Solid fossil fuels,0.03,3%
+Portugal,Natural gas,0.23,23%
+Portugal, Oil and petroleum products,0.45,45%
+Portugal,Renewables and biofuels,0.29,29%
+Portugal,Nuclear heat,0.00,0%
+Portugal,Other,0.00,0%
+Romania,Solid fossil fuels,0.11,11%
+Romania,Natural gas,0.30,30%
+Romania, Oil and petroleum products,0.30,30%
+Romania,Renewables and biofuels,0.20,20%
+Romania,Nuclear heat,0.08,8%
+Romania,Other,0.01,1%
+Slovenia,Solid fossil fuels,0.16,16%
+Slovenia,Natural gas,0.11,11%
+Slovenia, Oil and petroleum products,0.34,34%
+Slovenia,Renewables and biofuels,0.18,18%
+Slovenia,Nuclear heat,0.20,20%
+Slovenia,Other,0.01,1%
+Slovakia,Solid fossil fuels,0.14,14%
+Slovakia,Natural gas,0.25,25%
+Slovakia, Oil and petroleum products,0.22,22%
+Slovakia,Renewables and biofuels,0.13,13%
+Slovakia,Nuclear heat,0.26,26%
+Slovakia,Other,0.00,0%
+Finland,Solid fossil fuels,0.05,5%
+Finland,Natural gas,0.07,7%
+Finland, Oil and petroleum products,0.25,25%
+Finland,Renewables and biofuels,0.38,38%
+Finland,Nuclear heat,0.17,17%
+Finland,Other,0.08,8%
+Sweden,Solid fossil fuels,0.03,3%
+Sweden,Natural gas,0.02,2%
+Sweden, Oil and petroleum products,0.23,23%
+Sweden,Renewables and biofuels,0.50,50%
+Sweden,Nuclear heat,0.22,22%
+Sweden,Other,0.00,0%
+Norway,Solid fossil fuels,0.03,3%
+Norway,Natural gas,0.16,16%
+Norway, Oil and petroleum products,0.32,32%
+Norway,Renewables and biofuels,0.49,49%
+Norway,Nuclear heat,0.00,0%
+Norway,Other,0.00,0%
