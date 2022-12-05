@@ -1,187 +1,187 @@
-Year,Source,Value
-1990,Solid fossil fuels,0.257003155
-1990,Natural gas,0.167653615
-1990,Oil and petroleum products,0.390018232
-1990,Renewables and biofuels,0.04775173
-1990,Nuclear heat,0.126569409
-1990,Other,0.011003858
-1991,Solid fossil fuels,0.243826521
-1991,Natural gas,0.172380574
-1991,Oil and petroleum products,0.394173291
-1991,Renewables and biofuels,0.050004263
-1991,Nuclear heat,0.130352317
-1991,Other,0.009263034
-1992,Solid fossil fuels,0.23323516
-1992,Natural gas,0.171186001
-1992,Oil and petroleum products,0.400152033
-1992,Renewables and biofuels,0.052508558
-1992,Nuclear heat,0.134215881
-1992,Other,0.008702367
-1993,Solid fossil fuels,0.222151429
-1993,Natural gas,0.174442075
-1993,Oil and petroleum products,0.401303584
-1993,Renewables and biofuels,0.055736899
-1993,Nuclear heat,0.138334082
-1993,Other,0.008031931
-1994,Solid fossil fuels,0.218610506
-1994,Natural gas,0.173517931
-1994,Oil and petroleum products,0.40431512
-1994,Renewables and biofuels,0.056342145
-1994,Nuclear heat,0.138643982
-1994,Other,0.008570315
-1995,Solid fossil fuels,0.209447442
-1995,Natural gas,0.182218099
-1995,Oil and petroleum products,0.406198367
-1995,Renewables and biofuels,0.055885228
-1995,Nuclear heat,0.137750958
-1995,Other,0.008499905
-1996,Solid fossil fuels,0.202323949
-1996,Natural gas,0.191254806
-1996,Oil and petroleum products,0.402628296
-1996,Renewables and biofuels,0.056543508
-1996,Nuclear heat,0.139917319
-1996,Other,0.007332122
-1997,Solid fossil fuels,0.197591442
-1997,Natural gas,0.186908144
-1997,Oil and petroleum products,0.406787006
-1997,Renewables and biofuels,0.058880507
-1997,Nuclear heat,0.141854841
-1997,Other,0.007978059
-1998,Solid fossil fuels,0.186891325
-1998,Natural gas,0.191069368
-1998,Oil and petroleum products,0.414900469
-1998,Renewables and biofuels,0.060034207
-1998,Nuclear heat,0.139854189
-1998,Other,0.007250441
-1999,Solid fossil fuels,0.178920385
-1999,Natural gas,0.197202953
-1999,Oil and petroleum products,0.412072394
-1999,Renewables and biofuels,0.060805754
-1999,Nuclear heat,0.143684097
-1999,Other,0.007314417
-2000,Solid fossil fuels,0.181346293
-2000,Natural gas,0.200564463
-2000,Oil and petroleum products,0.40308122
-2000,Renewables and biofuels,0.062716596
-2000,Nuclear heat,0.144316233
-2000,Other,0.007975195
-2001,Solid fossil fuels,0.176336418
-2001,Natural gas,0.20259277
-2001,Oil and petroleum products,0.404295143
-2001,Renewables and biofuels,0.063237631
-2001,Nuclear heat,0.1455741
-2001,Other,0.007963938
-2002,Solid fossil fuels,0.175907465
-2002,Natural gas,0.203629746
-2002,Oil and petroleum products,0.402350806
-2002,Renewables and biofuels,0.06200786
-2002,Nuclear heat,0.147467996
-2002,Other,0.008636127
-2003,Solid fossil fuels,0.176178538
-2003,Natural gas,0.209013317
-2003,Oil and petroleum products,0.39648374
-2003,Renewables and biofuels,0.065767284
-2003,Nuclear heat,0.14468984
-2003,Other,0.007867281
-2004,Solid fossil fuels,0.172742033
-2004,Natural gas,0.211466259
-2004,Oil and petroleum products,0.393719113
-2004,Renewables and biofuels,0.068575177
-2004,Nuclear heat,0.146006304
-2004,Other,0.007491115
-2005,Solid fossil fuels,0.166104773
-2005,Natural gas,0.217858893
-2005,Oil and petroleum products,0.391150906
-2005,Renewables and biofuels,0.072693885
-2005,Nuclear heat,0.14340509
-2005,Other,0.008786454
-2006,Solid fossil fuels,0.16898295
-2006,Natural gas,0.215371423
-2006,Oil and petroleum products,0.388090861
-2006,Renewables and biofuels,0.076777977
-2006,Nuclear heat,0.141722513
-2006,Other,0.009054276
-2007,Solid fossil fuels,0.171425677
-2007,Natural gas,0.214050333
-2007,Oil and petroleum products,0.383321478
-2007,Renewables and biofuels,0.083739233
-2007,Nuclear heat,0.136695987
-2007,Other,0.010767292
-2008,Solid fossil fuels,0.158975252
-2008,Natural gas,0.218428062
-2008,Oil and petroleum products,0.382363204
-2008,Renewables and biofuels,0.090466317
-2008,Nuclear heat,0.139022113
-2008,Other,0.010745053
-2009,Solid fossil fuels,0.149951443
-2009,Natural gas,0.218566296
-2009,Oil and petroleum products,0.381467835
-2009,Renewables and biofuels,0.100901716
-2009,Nuclear heat,0.137565862
-2009,Other,0.011546849
-2010,Solid fossil fuels,0.152618972
-2010,Natural gas,0.225952181
-2010,Oil and petroleum products,0.364669305
-2010,Renewables and biofuels,0.107990747
-2010,Nuclear heat,0.136764057
-2010,Other,0.012004739
-2011,Solid fossil fuels,0.160618902
-2011,Natural gas,0.213847383
-2011,Oil and petroleum products,0.365692432
-2011,Renewables and biofuels,0.109326365
-2011,Nuclear heat,0.138077302
-2011,Other,0.012437615
-2012,Solid fossil fuels,0.161823081
-2012,Natural gas,0.212987212
-2012,Oil and petroleum products,0.354498893
-2012,Renewables and biofuels,0.122618812
-2012,Nuclear heat,0.135547409
-2012,Other,0.012524593
-2013,Solid fossil fuels,0.161140541
-2013,Natural gas,0.211445199
-2013,Oil and petroleum products,0.348975381
-2013,Renewables and biofuels,0.130223792
-2013,Nuclear heat,0.135869839
-2013,Other,0.012345249
-2014,Solid fossil fuels,0.158557209
-2014,Natural gas,0.193130856
-2014,Oil and petroleum products,0.357847761
-2014,Renewables and biofuels,0.135031165
-2014,Nuclear heat,0.142345165
-2014,Other,0.013087844
-2015,Solid fossil fuels,0.157267658
-2015,Natural gas,0.198935618
-2015,Oil and petroleum products,0.357341502
-2015,Renewables and biofuels,0.137032654
-2015,Nuclear heat,0.13691959
-2015,Other,0.012502977
-2016,Solid fossil fuels,0.149556067
-2016,Natural gas,0.20867878
-2016,Oil and petroleum products,0.358283837
-2016,Renewables and biofuels,0.138012535
-2016,Nuclear heat,0.131227289
-2016,Other,0.014241493
-2017,Solid fossil fuels,0.142730818
-2017,Natural gas,0.215896016
-2017,Oil and petroleum products,0.360173736
-2017,Renewables and biofuels,0.140329407
-2017,Nuclear heat,0.127155917
-2017,Other,0.013714106
-2018,Solid fossil fuels,0.138003031
-2018,Natural gas,0.213115175
-2018,Oil and petroleum products,0.358876973
-2018,Renewables and biofuels,0.147430442
-2018,Nuclear heat,0.12807199
-2018,Other,0.01450239
-2019,Solid fossil fuels,0.114522842
-2019,Natural gas,0.223307867
-2019,Oil and petroleum products,0.363149424
-2019,Renewables and biofuels,0.154566617
-2019,Nuclear heat,0.13069473
-2019,Other,0.01375852
-2020,Solid fossil fuels,0.101739294
-2020,Natural gas,0.237195618
-2020,Oil and petroleum products,0.344958035
-2020,Renewables and biofuels,0.173991888
-2020,Nuclear heat,0.127017002
-2020,Other,0.015098162
+Year,Source,Value,%
+1990,Solid fossil fuels,0.257003155,26%
+1990,Natural gas,0.167653615,17%
+1990,Oil and petroleum products,0.390018232,39%
+1990,Renewables and biofuels,0.04775173,5%
+1990,Nuclear heat,0.126569409,13%
+1990,Other,0.011003858,1%
+1991,Solid fossil fuels,0.243826521,24%
+1991,Natural gas,0.172380574,17%
+1991,Oil and petroleum products,0.394173291,39%
+1991,Renewables and biofuels,0.050004263,5%
+1991,Nuclear heat,0.130352317,13%
+1991,Other,0.009263034,1%
+1992,Solid fossil fuels,0.23323516,23%
+1992,Natural gas,0.171186001,17%
+1992,Oil and petroleum products,0.400152033,40%
+1992,Renewables and biofuels,0.052508558,5%
+1992,Nuclear heat,0.134215881,13%
+1992,Other,0.008702367,1%
+1993,Solid fossil fuels,0.222151429,22%
+1993,Natural gas,0.174442075,17%
+1993,Oil and petroleum products,0.401303584,40%
+1993,Renewables and biofuels,0.055736899,6%
+1993,Nuclear heat,0.138334082,14%
+1993,Other,0.008031931,1%
+1994,Solid fossil fuels,0.218610506,22%
+1994,Natural gas,0.173517931,17%
+1994,Oil and petroleum products,0.40431512,40%
+1994,Renewables and biofuels,0.056342145,6%
+1994,Nuclear heat,0.138643982,14%
+1994,Other,0.008570315,1%
+1995,Solid fossil fuels,0.209447442,21%
+1995,Natural gas,0.182218099,18%
+1995,Oil and petroleum products,0.406198367,41%
+1995,Renewables and biofuels,0.055885228,6%
+1995,Nuclear heat,0.137750958,14%
+1995,Other,0.008499905,1%
+1996,Solid fossil fuels,0.202323949,20%
+1996,Natural gas,0.191254806,19%
+1996,Oil and petroleum products,0.402628296,40%
+1996,Renewables and biofuels,0.056543508,6%
+1996,Nuclear heat,0.139917319,14%
+1996,Other,0.007332122,1%
+1997,Solid fossil fuels,0.197591442,20%
+1997,Natural gas,0.186908144,19%
+1997,Oil and petroleum products,0.406787006,41%
+1997,Renewables and biofuels,0.058880507,6%
+1997,Nuclear heat,0.141854841,14%
+1997,Other,0.007978059,1%
+1998,Solid fossil fuels,0.186891325,19%
+1998,Natural gas,0.191069368,19%
+1998,Oil and petroleum products,0.414900469,41%
+1998,Renewables and biofuels,0.060034207,6%
+1998,Nuclear heat,0.139854189,14%
+1998,Other,0.007250441,1%
+1999,Solid fossil fuels,0.178920385,18%
+1999,Natural gas,0.197202953,20%
+1999,Oil and petroleum products,0.412072394,41%
+1999,Renewables and biofuels,0.060805754,6%
+1999,Nuclear heat,0.143684097,14%
+1999,Other,0.007314417,1%
+2000,Solid fossil fuels,0.181346293,18%
+2000,Natural gas,0.200564463,20%
+2000,Oil and petroleum products,0.40308122,40%
+2000,Renewables and biofuels,0.062716596,6%
+2000,Nuclear heat,0.144316233,14%
+2000,Other,0.007975195,1%
+2001,Solid fossil fuels,0.176336418,18%
+2001,Natural gas,0.20259277,20%
+2001,Oil and petroleum products,0.404295143,40%
+2001,Renewables and biofuels,0.063237631,6%
+2001,Nuclear heat,0.1455741,15%
+2001,Other,0.007963938,1%
+2002,Solid fossil fuels,0.175907465,18%
+2002,Natural gas,0.203629746,20%
+2002,Oil and petroleum products,0.402350806,40%
+2002,Renewables and biofuels,0.06200786,6%
+2002,Nuclear heat,0.147467996,15%
+2002,Other,0.008636127,1%
+2003,Solid fossil fuels,0.176178538,18%
+2003,Natural gas,0.209013317,21%
+2003,Oil and petroleum products,0.39648374,40%
+2003,Renewables and biofuels,0.065767284,7%
+2003,Nuclear heat,0.14468984,14%
+2003,Other,0.007867281,1%
+2004,Solid fossil fuels,0.172742033,17%
+2004,Natural gas,0.211466259,21%
+2004,Oil and petroleum products,0.393719113,39%
+2004,Renewables and biofuels,0.068575177,7%
+2004,Nuclear heat,0.146006304,15%
+2004,Other,0.007491115,1%
+2005,Solid fossil fuels,0.166104773,17%
+2005,Natural gas,0.217858893,22%
+2005,Oil and petroleum products,0.391150906,39%
+2005,Renewables and biofuels,0.072693885,7%
+2005,Nuclear heat,0.14340509,14%
+2005,Other,0.008786454,1%
+2006,Solid fossil fuels,0.16898295,17%
+2006,Natural gas,0.215371423,22%
+2006,Oil and petroleum products,0.388090861,39%
+2006,Renewables and biofuels,0.076777977,8%
+2006,Nuclear heat,0.141722513,14%
+2006,Other,0.009054276,1%
+2007,Solid fossil fuels,0.171425677,17%
+2007,Natural gas,0.214050333,21%
+2007,Oil and petroleum products,0.383321478,38%
+2007,Renewables and biofuels,0.083739233,8%
+2007,Nuclear heat,0.136695987,14%
+2007,Other,0.010767292,1%
+2008,Solid fossil fuels,0.158975252,16%
+2008,Natural gas,0.218428062,22%
+2008,Oil and petroleum products,0.382363204,38%
+2008,Renewables and biofuels,0.090466317,9%
+2008,Nuclear heat,0.139022113,14%
+2008,Other,0.010745053,1%
+2009,Solid fossil fuels,0.149951443,15%
+2009,Natural gas,0.218566296,22%
+2009,Oil and petroleum products,0.381467835,38%
+2009,Renewables and biofuels,0.100901716,10%
+2009,Nuclear heat,0.137565862,14%
+2009,Other,0.011546849,1%
+2010,Solid fossil fuels,0.152618972,15%
+2010,Natural gas,0.225952181,23%
+2010,Oil and petroleum products,0.364669305,36%
+2010,Renewables and biofuels,0.107990747,11%
+2010,Nuclear heat,0.136764057,14%
+2010,Other,0.012004739,1%
+2011,Solid fossil fuels,0.160618902,16%
+2011,Natural gas,0.213847383,21%
+2011,Oil and petroleum products,0.365692432,37%
+2011,Renewables and biofuels,0.109326365,11%
+2011,Nuclear heat,0.138077302,14%
+2011,Other,0.012437615,1%
+2012,Solid fossil fuels,0.161823081,16%
+2012,Natural gas,0.212987212,21%
+2012,Oil and petroleum products,0.354498893,35%
+2012,Renewables and biofuels,0.122618812,12%
+2012,Nuclear heat,0.135547409,14%
+2012,Other,0.012524593,1%
+2013,Solid fossil fuels,0.161140541,16%
+2013,Natural gas,0.211445199,21%
+2013,Oil and petroleum products,0.348975381,35%
+2013,Renewables and biofuels,0.130223792,13%
+2013,Nuclear heat,0.135869839,14%
+2013,Other,0.012345249,1%
+2014,Solid fossil fuels,0.158557209,16%
+2014,Natural gas,0.193130856,19%
+2014,Oil and petroleum products,0.357847761,36%
+2014,Renewables and biofuels,0.135031165,14%
+2014,Nuclear heat,0.142345165,14%
+2014,Other,0.013087844,1%
+2015,Solid fossil fuels,0.157267658,16%
+2015,Natural gas,0.198935618,20%
+2015,Oil and petroleum products,0.357341502,36%
+2015,Renewables and biofuels,0.137032654,14%
+2015,Nuclear heat,0.13691959,14%
+2015,Other,0.012502977,1%
+2016,Solid fossil fuels,0.149556067,15%
+2016,Natural gas,0.20867878,21%
+2016,Oil and petroleum products,0.358283837,36%
+2016,Renewables and biofuels,0.138012535,14%
+2016,Nuclear heat,0.131227289,13%
+2016,Other,0.014241493,1%
+2017,Solid fossil fuels,0.142730818,14%
+2017,Natural gas,0.215896016,22%
+2017,Oil and petroleum products,0.360173736,36%
+2017,Renewables and biofuels,0.140329407,14%
+2017,Nuclear heat,0.127155917,13%
+2017,Other,0.013714106,1%
+2018,Solid fossil fuels,0.138003031,14%
+2018,Natural gas,0.213115175,21%
+2018,Oil and petroleum products,0.358876973,36%
+2018,Renewables and biofuels,0.147430442,15%
+2018,Nuclear heat,0.12807199,13%
+2018,Other,0.01450239,1%
+2019,Solid fossil fuels,0.114522842,11%
+2019,Natural gas,0.223307867,22%
+2019,Oil and petroleum products,0.363149424,36%
+2019,Renewables and biofuels,0.154566617,15%
+2019,Nuclear heat,0.13069473,13%
+2019,Other,0.01375852,1%
+2020,Solid fossil fuels,0.101739294,10%
+2020,Natural gas,0.237195618,24%
+2020,Oil and petroleum products,0.344958035,34%
+2020,Renewables and biofuels,0.173991888,17%
+2020,Nuclear heat,0.127017002,13%
+2020,Other,0.015098162,2%
