@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "Energy source mix in EU countries 1990 - 2020",
+      "subtitle": "Source: Eurostat",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+     
+     
+    "data": {
+      "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/EU_Energy_Over_Time.csv"
+    },
+    
+    "height": 300,
+    "width": 300,
+    "mark": {"type": "line", "strokeWidth": 4},
+    "selection": {
+      
+      "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true},
+      "division": {"type": "multi", "fields": ["Source"], "bind": "legend"}
+    },
+    
+    
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": "",
+      "axis": {"grid": false}
+      },
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "scale": {"domain": [0, 0.45]},
+        "title": "",
+        "axis": {"grid": false, "format":"%"}
+    
+        
+      },
+      "color": {
+        "field": "Source",
+        "type": "nominal",
+        "legend": {"orient": "bottom", "columns": 2, "labelFontSize": 12, "symbolSize":250, "titleFontSize": 12, "titleLimit":3000},
+        "title": "Energy Source (click on your preference)"
+      
+      },
+      "opacity": {"condition": {"selection": "division", "value": 1}, "value": 0.2
+    },
+      "size": {
+          "condition": {"selection": "paintbrush", "value": 3}},
+      "tooltip": [
+        
+        {"field": "%", "type": "nominal", "title": "Percentage of Energy Mix"},
+        {"field": "Source", "type": "nominal", "title": ""},
+        {"field": "Year", "type": "temporal"}
+      
+      ]
+    }
+   
+  }
