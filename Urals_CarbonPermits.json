@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text":[ 
+        "Regression: Urals Crude Oil on EU Carbon Permits"], 
+      
+      "fontSize":12,
+      "subtitle": "Source: Investing.com & Ember-climate.org",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "offset":"",
+      "align": ""
+      
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/Urals_EUCarbonPermits.csv"
+    },
+    "height": 300,
+    "width": 300,
+    
+     
+    
+      
+    "layer": [
+      {
+        "mark": {"type": "circle", "point": false, "clip": true, "opacity": 0.5},
+        "encoding": {
+          "x": {
+            "field": "Urals",
+            "type": "quantitative",
+            "title": "Urals Crude Oil ($/Bbl)",
+            "axis": {"grid": false},
+            "scale": {"zero": false}
+            
+          },
+          "y": {
+            "field": "EU Carbon Permits",
+            "type": "quantitative",
+            "title": "EU Carbon Permits (€/Tonne)",
+            "axis": {"grid": false},
+            "scale": {"zero": false}
+             
+          },
+         
+          "tooltip": [
+            {
+              "field": "Urals",
+              "type": "quantitative",
+              "title": "Urals crude oil ($/Bbl)"
+            },
+            {"field": "EU Carbon Permits", "type": "quantitative", "title": "EU Carbon Permits (€/Tonne)"},
+            {"field": "Date", "type": "nominal", "title":""}
+          ]
+        }
+      },
+      {
+        "mark": {"type": "line", "color":"darksalmon"},
+        "transform": [{"regression": "Urals", "on": "EU Carbon Permits"}],
+        "encoding": {
+          "x": {"field": "Urals", "type": "quantitative"},
+          "y": {"field": "EU Carbon Permits", "type": "quantitative"}
+        }
+      },
+      {
+        "transform": [
+          {"regression": "Urals", "on": "EU Carbon Permits", "params": true},
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {"type": "text", "x": "width", "align": "right", "y": -5},
+        "encoding": {"text": {"type": "nominal", "field": "R2"}}
+      }
+    ]
+  }

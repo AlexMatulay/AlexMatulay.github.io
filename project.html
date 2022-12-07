@@ -17,12 +17,20 @@
 <h2>Energy in the EU</h2>
 <p>This chart visualizes the energy mix in the 27 EU countries.</p>
 <div class="chart" id="Chart1"></div>
+<div class="chart" id="Chart4"></div>
 <p>Taking a closer look at the total energy mix in the EU, we can see that the majority is 
     covered by non-renewable sources of energy such as oil and natural gas.
 </p>
-<p>The low carbon sources account for only around 30% of the total energy mix in the EU.</p>
-<div class="chart" id="Chart4"></div>
-<div class="chart" id="Chart3"></div>
+<p>The byproduct of non-renewables are greenhouse gases</p>
+<div class="chart" id="Chart8"></div>
+<p>Since 2005 the EU is trying to reduce the Greenhouse gas emissions by
+    trading Carbon Permits
+</p>
+<div class="chart" id="Chart7"></div>
+<p>Solution: Nuclear</p>
+<div class="chart" id="Chart6"></div>
+
+
 
 </body>
 <script>
@@ -31,11 +39,19 @@
     var myChart2 = "EU27_Energy_mix.json";
     var myChart3 = "Active_Nuclear_reactors.json";
     var myChart4 = "EU_Energy_Sources_1990-2020.json";
+    var myChart5 = "regression.json";
+    var myChart6 = "GDP_Active_Reactors.json";
+    var myChart7 = "Urals_CarbonPermits.json";
+    var myChart8 = "EU_GHG_Emissions.json";
     
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
 </script>    
 </html>

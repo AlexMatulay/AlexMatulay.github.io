@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "GDP Per capita and Number of Active Nuclear Reactors",
+      "subtitle": [
+        "Source: Trading Economics and Eurostat"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "config": {"background": "white", "view": {"stroke": "transparent"}},
+    "data": {
+      "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/GDP_and_nuclear.csv",
+      "format": {"type": "csv"}
+    },
+    "mark": {"type": "point", "color": "green", "opacity": 0.8},
+    "height": 300,
+    "width": 300,
+    "encoding": {
+      "x": {
+        "field": "Country",
+        "type": "nominal",
+        "axis": {"grid": false, "labelAngle":45},
+        "title": null
+      },
+      "y": {
+        "field": "GDP per capita",
+        "type": "quantitative",
+        
+        "axis": {"grid": false},
+        "title": "GDP per capita in USD"
+      },
+      "size": {
+        "field": "Active Reactors",
+        "type": "quantitative",
+        "scale": {"range": [500, 8000]},
+        "title": "Number of Active reactors",
+      
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {
+          "field": "GDP per capita",
+          "type": "quantitative",
+          "title": "GDP per capita in $"
+        },
+        {
+          "field": "Active Reactors",
+          "type": "quantitative",
+          "title": "Number of Active Nuclear Reactors"
+          
+        }
+      ]
+    }
+  }
