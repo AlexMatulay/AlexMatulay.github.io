@@ -1,10 +1,10 @@
 Country,Source of Energy,Value,Percentage
-European Union,Solid fossil fuels,0.10,10%
-European Union,Natural gas,0.24,24%
-European Union, Oil and petroleum products,0.34,34%
-European Union,Renewables and biofuels,0.17,17%
-European Union,Nuclear heat,0.13,13%
-European Union,Other,0.02,2%
+EU 27,Solid fossil fuels,0.10,10%
+EU 27,Natural gas,0.24,24%
+EU 27, Oil and petroleum products,0.34,34%
+EU 27,Renewables and biofuels,0.17,17%
+EU 27,Nuclear heat,0.13,13%
+EU 27,Other,0.02,2%
 Belgium,Solid fossil fuels,0.04,4%
 Belgium,Natural gas,0.26,26%
 Belgium, Oil and petroleum products,0.45,45%
