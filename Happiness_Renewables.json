@@ -1,0 +1,80 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": ["Regression: Happiness on % of Renewable energy"],
+      "fontSize": 12,
+      "subtitle": "Source: Worldhappiness.report & Ourworldindata.org",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "offset": "",
+      "align": ""
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/Happiness_Renewables.csv"
+    },
+    "height": 300,
+    "width": 300,
+    "layer": [
+      {
+        "mark": {"type": "circle", "point": false, "clip": true, "opacity": 0.8},
+        "encoding": {
+          "x": {
+            "field": "Renewables",
+            "type": "quantitative",
+            "title": "% of energy coming from Renewables",
+            "axis": {"grid": false},
+            "scale": {"zero": false, "domain":[-5,100]}
+          },
+          "y": {
+            "field": "Happiness",
+            "type": "quantitative",
+            "title": "Happiness index",
+            "axis": {"grid": false},
+                      "scale": {"zero": false}
+  
+          },
+          "color":{
+            "field":"Happiness",
+            "legend":{"type": "gradient",
+             "values":[10,0],
+             "orient": "bottom-right",
+             "direction": "vertical",
+             "titleAlign":"center",
+             "title": "Happiness index"},
+            "scale":{"scheme":"turbo"}
+          },
+          "tooltip": [
+            {
+              "field": "Renewables",
+              "type": "quantitative",
+              "title": "% of energy that comes of Renewables"
+            },
+            {
+              "field": "Happiness",
+              "type": "quantitative",
+              "title": "Happiness index"
+            },
+            {"field": "Country", "type": "nominal", "title": ""},
+            {"field": "Year", "type":"nominal"}
+          ]
+        }
+      },
+      {
+        "mark": {"type": "line", "color": "blueviolet"},
+        "transform": [{"regression": "Renewables", "on": "Happiness"}],
+        "encoding": {
+          "x": {"field": "Renewables", "type": "quantitative"},
+          "y": {"field": "Happiness", "type": "quantitative"}
+        }
+      },
+      {
+        "transform": [
+          {"regression": "Renewables", "on": "Happiness", "params": true},
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {"type": "text", "x": "width", "align": "right", "y": -5},
+        "encoding": {"text": {"type": "nominal", "field": "R2"}}
+      }
+    ]
+  }
