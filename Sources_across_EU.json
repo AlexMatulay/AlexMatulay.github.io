@@ -33,7 +33,8 @@
       },
       "color": {
         "field": "Source of Energy",
-        "legend":{"orient": "bottom", "direction": "vertical", "labelFontSize": 10, "titleAlign":"left"}
+        "legend":{"orient": "bottom", "columns":2, "labelFontSize": 12, "titleAlign":"left", "titleFontSize": 12},
+        "title": "Energy Source"
       },
       "tooltip": [
         {"field": "Country", "type": "nominal", "title": "Country"},
