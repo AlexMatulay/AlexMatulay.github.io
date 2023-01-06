@@ -2,14 +2,14 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 600,
     "height": 600,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "title": {
-      "text": "Europe",
-      "fontSize":"20",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 20,
-      "anchor": "middle",
-      "color": "#010001",
-      "subtitleColor": "#000000"
+      "text": "Map of Europe",
+      "fontSize":15,
+      "anchor": "start",
+      "color": "#010001"
+      
     },
     "data": {
       "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson",
