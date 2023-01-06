@@ -13,26 +13,85 @@
 </head>
 <body>
    <h1>Data Science project 2022</h1> 
-   <h1>Alex Matulay</h1>
-<h2>Energy in the EU</h2>
-<p>This chart visualizes the energy mix in the 27 EU countries.</p>
+   
+<h2>Energy consumption and an incentive for a green transition in Europe</h2>
+<h3>Aims</h3>
+<p>With the ongoing energy crisis, it is important to know which energy sources are mainly used 
+    in our daily consumption. Europe is currently facing serious discussions regarding its current energy 
+    set-up. This project is not trying to solve the ongoing short-term energy crisis, but rather aims to look 
+    further into the future in a search for a long-term solution. Some countries in the EU have aimed to reduce 
+    their consumption of fossil fuels more than other countries in the past few decades. It is important for 
+    other countries to follow this trend and look towards more renewable sources of energy. </p> 
+    <p>Hence, this project 
+        aims to summarize the development of energy consumption in the EU and Europe in the last few decades and 
+        hints towards using more renewable sources of energy. </p>   
 <div class="chart" id="Chart1"></div>
 <div class="chart" id="Chart4"></div>
-<p>Taking a closer look at the total energy mix in the EU, we can see that the majority is 
-    covered by non-renewable sources of energy such as oil and natural gas.
-</p>
-<p>The byproduct of non-renewables are greenhouse gases</p>
+
 <div class="chart" id="Chart8"></div>
-<p>Since 2005 the EU is trying to reduce the Greenhouse gas emissions by
-    trading Carbon Permits
-</p>
+
+<div class="chart" id="Chart10"></div>
+<p>Note: when viewing the maps on a mobile device it is recommended to view them in a Landscape mode</p>
 <div class="chart" id="Chart7"></div>
 <div class="chart" id="Chart9"></div>
-<p>Solution: Nuclear</p>
+
 <div class="chart" id="Chart6"></div>
 
 
+    <h3>Data</h3>
+    <p>The data used in this project has been obtained from various sources. 
+        Eurostat was used more than once since it provides a great range of data 
+        for European countries. Most of the data was downloaded in csv files. </p>
+        <p>I mainly tried to restrict the data to EU countries but then in some examples 
+            I have either used data for all countries in Europe or in one example I have used 
+            data for the whole world. This has been done to increase the significance of the results or to 
+            achieve a better geographical picture of the maps. </p>
+      <p>In the maps, certain countries may disappear in certain years. This is because the values 
+        for those years are missing. For example, the UK disappears in year 2020 in the per capita 
+        greenhouse gas emissions map. This is because the UK has left the EU and the data was no 
+        longer there. </p>   
+        <p>Wikipedia was scrapped to obtain data for the number of nuclear reactors. 
+            The google collab notebook can be viewed 
+             
+            <a class="textLink" href="https://colab.research.google.com/drive/1_Irqkc4rPbz2P3wkEeXVwpBHAOE2cTre?usp=sharing"> here.</a> 
+            </p>   
 
+            <h3>Challenges in data cleaning</h3>
+            <p>In the topojson, the map of Europe has different names for certain countries 
+                compared to the country names in some datasets. For example, the Czech Republic 
+                is sometimes called Czechia in some data sets. Without changing the name in the 
+                dataset to Czech Republic, the map would not include Czech Republic. 
+                Therefore, I had to manually change the names of some countries in the data sets 
+                to match the names in the topojson map. </p>
+
+           <p>When merging datasets, the data was edited in excel with the use of formulae to 
+            match the same dates. For example, two data sets were matched using a match formula 
+            in the scatter plots dataset. It took me a lot of time to find the correct formula to do 
+            this. But this had to be done to avoid any mismatch errors when merging datasets manually. </p>  
+            
+            <p>The data was edited in excel after scraping the Wikipedia website to obtain data 
+                for the number of reactors. This is because my python skills are limited, and it 
+                was easier to do it in excel. For future replication/automation it would have been better to clean the 
+            data in python. </p>
+
+    <h3>Conclusion</h3>
+<p>To conclude, there is still a prevalent use of fossil fuels in the EU, with oil being the predominant 
+    source of energy. It has, however, been on a decline in the past few years. </p>
+    <p>The European Union has been trying to reduce greenhouse gas emissions by introducing the 
+        EU Emissions Trading System. Its impact on greenhouse gas emission can be seen since its 
+        introduction in 2005 which can be observed in the first map. Further work could be done to 
+        study the direct impact of the EU Trading System on greenhouse gas emissions. </p>
+        <p>There is a slight upwards trend between the overall happiness index and the use of 
+            renewable energy. More work could be done in identifying which energy sources contribute more
+             or less to the overall happiness index, or a study could be made to identify which energy sources 
+             are people most satisfied with.  </p>
+             <p>Nuclear energy, which can be considered as renewable, provides a reliable, safe, 
+                and clean source of energy. Switzerland has the same number of active nuclear
+                 reactors as Hungary, but Switzerland’s GDP is more than twice the GDP of Hungary. 
+                 This shows that there isn’t a link between GDP and the number of active nuclear reactors. 
+                 Nuclear energy is, however, stigmatized by the public and more work could be done to inform 
+                 the public about the advantages of this source of energy. If you are interested in reading 
+                 my opinion on nuclear energy, please click <a href="OpEd.html" class="link" id="link2">here</a> </p>
 </body>
 <script>
     //Define charts:
@@ -45,6 +104,7 @@
     var myChart7 = "Urals_CarbonPermits.json";
     var myChart8 = "EU_GHG_Emissions.json";
     var myChart9 = "Happiness_Renewables.json";
+    var myChart10 = "Change_in_Energy_Consumption.json";
     
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -56,5 +116,6 @@
     vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
     vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
 </script>    
 </html>

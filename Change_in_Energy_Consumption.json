@@ -1,0 +1,69 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 600,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
+    "title": {
+      "text": "Annual change in primary energy consumption, Europe: 2000 - 2020",
+      "subtitle": "Source: ourwordlindata.org",
+      "fontSize": 15,
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/change-energy-consumption.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "lookup": "Country",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson",
+            "format": {"property": "features"}
+          },
+          "key": "properties.NAME",
+          "fields": ["properties", "type", "geometry"]
+        }
+      },
+      {"filter": "datum.Year==Year"}
+    ],
+    "params": [
+      {
+        "name": "Year",
+        "value": 2000,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2020,
+          "step": 1,
+          "name": "Select the year:"
+        }
+      }
+    ],
+    "projection": {"type": "mercator"},
+    "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
+    "encoding": {
+      "color": {
+        "field": "change",
+        "legend": {
+          "title": "Annual change (%)",
+          "titleFontSize": 11,
+          "orient": "top-left",
+          "direction": "",
+          "titleLimit": 3000,
+          "labelAlign": "left"
+        },
+        "type": "quantitative",
+        "scale": {"scheme": "tealblues"}
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "change", "title": "Annual change in primary energy consumption (%)"}
+      ]
+    }
+  }

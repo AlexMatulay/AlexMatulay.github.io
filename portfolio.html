@@ -25,7 +25,7 @@
 <body>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
-        <h1>Welcome to my website</h1>
+        <h1>Portfolio Tasks</h1>
         
         <h3>Week 1</h3>
         <h3>Productivity</h3>
@@ -33,7 +33,7 @@
         <div class="chart" id="Chart1"></div>
 
         <h3>Football</h3>
-        <p>My second chart looks at cumuklative goals scored by home and away teams in the premiership</p>
+        <p>My second chart looks at cumulative goals scored by home and away teams in the premiership</p>
         <div class="chart" id="Chart2"> </div>
 
         <h3>Week 2</h3>
@@ -88,7 +88,12 @@
     <div class="chart" id="Chart21"></div>
     <p>As can be seen, Housing and household services (which include energy) form over 30% of the consumer basket. It has increased by over 10% in the last year</p>
 
+    <h3>Week 9</h3>
+    <div class="chart" id="Chart23"></div>
+    <div class="chart" id="Chart24"></div>
 
+    <h3>Week 10 and 11</h3>
+    <img alt="My Image" src="Clustering.png" class="center"/>
 
 </div>
 
@@ -118,6 +123,8 @@
     var myChart20 = "Europe_Gdp_per_capita.json";
     var myChart21 = "chart21.json";
     var myChart22 = "chart22.json";
+    var myChart23 = "Urals_CarbonPermits.json";
+    var myChart24 = "Happiness_Renewables.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -141,6 +148,8 @@
     vegaEmbed('#Chart20', myChart20);
     vegaEmbed('#Chart21', myChart21);
     vegaEmbed('#Chart22', myChart22);
+    vegaEmbed('#Chart23', myChart23);
+    vegaEmbed('#Chart24', myChart24);
 </script>
 
 </html>

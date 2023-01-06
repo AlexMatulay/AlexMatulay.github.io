@@ -28,7 +28,7 @@ body{
     text-decoration: none;
 }
 .links{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -54,6 +54,8 @@ h1, h3, p{
     color:rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    border: 0px;
+    border-style: none;
 }
     
 .myWeek1{
