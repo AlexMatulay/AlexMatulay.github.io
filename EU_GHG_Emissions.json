@@ -2,6 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 500,
     "height": 600,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "title": {
       "text": "Per capita greenhouse gas emissions in the EEA + Switzerland 2000 - 2020",
       "subtitle": "(in metric tons of CO2 equivalent per capita) Source: Eurostat",

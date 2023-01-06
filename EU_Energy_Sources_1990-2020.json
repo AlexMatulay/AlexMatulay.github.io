@@ -17,6 +17,8 @@
     
     "height": 300,
     "width": 300,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "mark": {"type": "line", "strokeWidth": 4},
     "selection": {
       

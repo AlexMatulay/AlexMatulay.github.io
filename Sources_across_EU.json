@@ -12,7 +12,9 @@
     },
     "mark": "bar",
     "height":300,
-    "width":300,
+    "width":290,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     
     
     "encoding": {
@@ -27,7 +29,7 @@
         "type": "quantitative",
         "title": "",
          "aggregate": "sum",
-         "axis":{"format":"%"},
+         "axis":{"format":"%", "grid": false},
          "scale": {"domain": [0, 1]}
       
       },

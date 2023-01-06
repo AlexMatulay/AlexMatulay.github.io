@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text": "GDP Per capita and Number of Active Nuclear Reactors",
-      "subtitle": [
-        "Source: Trading Economics and Eurostat"
+      "subtitle": [ 
+        "(as of December 2021) Source: Trading Economics and Wikipedia"
       ],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
@@ -18,6 +18,8 @@
     "mark": {"type": "point", "color": "green", "opacity": 0.8},
     "height": 300,
     "width": 300,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "encoding": {
       "x": {
         "field": "Country",
@@ -45,7 +47,7 @@
         {
           "field": "GDP per capita",
           "type": "quantitative",
-          "title": "GDP per capita in $"
+          "title": "GDP per capita in USD"
         },
         {
           "field": "Active Reactors",
