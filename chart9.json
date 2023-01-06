@@ -13,6 +13,8 @@
     },
     "width": 180,
     "height": 180,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "mark": {
       "type": "line"
       

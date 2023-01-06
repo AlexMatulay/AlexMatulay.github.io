@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Real GDP long-term forecast",
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "title": {
       "text": "Consumer price inflation basket of goods and services: 2022 UK",
       "subtitle": "March 2022, Source: ons.gov.uk",
@@ -16,7 +18,7 @@
     },
     "mark": {"type": "bar"},
     "encoding": {
-      "x": {"field": "CPIH  weight", "type": "quantitative", "title": "% of the total basket"},
+      "x": {"field": "CPIH  weight", "type": "quantitative", "title": "% of the total basket", "axis":{"grid": false}},
       "y": {"field": "CPIH", "type": "nominal", "sort": "-x", "title": ""}
       
     }

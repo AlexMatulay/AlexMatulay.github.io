@@ -28,9 +28,12 @@
         "sort": [{"field":"match_start", "order":"ascending"}]}],
   
     "height":300,
-    "width":300,         
+    "width":300,    
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},     
   
-    "encoding": {"x": {"field": "match_start", "type": "temporal","title":null}},
+    "encoding": {"x": {"field": "match_start", "type": "temporal","title":null, "axis":{"grid": false}},
+  "y": {"axis":{"grid": false}}},
   
     "layer":[
   
@@ -43,7 +46,7 @@
               "scale": {"range": ["green", "blue"]},
               "legend":{
                 "orient": "top-left",
-                "fillColor":"white"}}}},
+                "fillColor":""}}}},
   
   
       {"mark": {"type":"circle", "size":100},

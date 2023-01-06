@@ -3,7 +3,7 @@
   "description": "Real GDP long-term forecast",
   "title": {
     "text": "Real GDP long-term forecast",
-    "subtitle": "Real GDP long-term forecast in Euro area countries in Million US dollars 2020-2060, Source: OECD",
+    "subtitle": "In Euro area countries in Million US dollars 2020-2060, Source: OECD",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -11,6 +11,8 @@
   },
   "height":300,
   "width":300,
+  "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
   
   "transform": [
     {"filter": "datum.TIME>minYear"},
@@ -744,8 +746,14 @@
   },
   "mark": {"type": "line", "point": true},
   "encoding": {
-    "x": {"field": "TIME", "type": "nominal", "title":""},
-    "y": {"field": "Value", "type": "quantitative", "title":""},
-    "color": {"field": "LOCATION", "type": "nominal"}
+    "x": {"field": "TIME", "type": "nominal", "title":"", "axis":{"grid": false}},
+    "y": {"field": "Value", "type": "quantitative", "title":"", "axis":{"grid": false}},
+    "color": {
+    "field": "LOCATION", 
+    "type": "nominal", 
+    "title":"Country", 
+    "legend": {
+      "orient": "bottom", 
+  "columns": 6}
   }
-}
+}}

@@ -4,21 +4,23 @@
       "url": "https://raw.githubusercontent.com/AlexMatulay/AlexMatulay.github.io/main/data_MM23-DYWD.json",
     "format": {"type":"json", "property": "quarters"}},
     "title": {
-      "text": "Economically inactive: total by country of birth ",
-      "subtitle": "(16-64): EU (EU27) born: %, Source: ONS",
+      "text": "Economically inactive: by birthplace",
+      "subtitle": "(16-64): EU27 born: %, Source: ONS",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
       "color": "black"
     },
-    "width": 180,
-    "height": 180,
+    "width": 200,
+    "height": 170,
+    "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
     "mark": {
       "type": "line"
       
     },
     "encoding": {
-      "x": {"field": "year", "type": "temporal",  "title": ""},
-      "y": {"field": "value", "type": "quantitative", "title": ""}
+      "x": {"field": "year", "type": "temporal",  "title": "", "axis": {"grid": false}},
+      "y": {"field": "value", "type": "quantitative", "title": "", "axis": {"grid": false}}
     }
   }

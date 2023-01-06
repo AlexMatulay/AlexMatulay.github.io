@@ -23,6 +23,8 @@
   
         "height": 300,
         "width": 300,
+        "background": null,
+    "config": {"style": {"cell": {"stroke": "transparent"}}},
   
         "mark": {
             "type":"circle",
