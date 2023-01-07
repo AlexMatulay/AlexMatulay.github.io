@@ -3,7 +3,7 @@
     "title": {
       "text": "GDP Per capita and Number of Active Nuclear Reactors",
       "subtitle": [ 
-        "per 100 000 people (as of 2020); Source: Trading Economics, Wikipedia, Worldometer"
+        "per 1 000 000 people (as of 2020); Source: Trading Economics, Wikipedia, Worldometer"
       ],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
@@ -25,7 +25,7 @@
         "field": "Country",
         "type": "nominal",
         "axis": {"grid": false, "labelAngle":45},
-        "title": "Number of active nuclear reactors per 100 000 people by country"
+        "title": "Number of active nuclear reactors per 1 000 000 people by country"
       },
       "y": {
         "field": "GDP per capita",
@@ -37,7 +37,7 @@
       "size": {
         "field": "Reactors per",
         "type": "quantitative",
-        "scale": {"range": [500, 8000]},
+        "scale": {"range": [100, 8000]},
         "title": "Number of Active reactors per 100 000 people",
       
         "legend": null
@@ -58,7 +58,7 @@
         {
           "field": "Reactors per",
           "type": "quantitative",
-          "title": "Number of Active Nuclear Reactors per 100 000 people"
+          "title": "Number of Active Nuclear Reactors per 1 000 000 people"
           
         }
       ]
