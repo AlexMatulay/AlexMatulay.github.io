@@ -1,19 +1,19 @@
-Country,GDP per capita,Active Reactors
-Belarus,19751,1
-Belgium,51602,6
-Bulgaria,23432,2
-Czech Republic,39778,6
-Finland,48937,5
-France,45187,56
-Germany,52931,3
-Hungary,33518,4
-Netherlands,56761,1
-Romania,30855,2
-Russia,27970,37
-Slovakia,31498,4
-Slovenia,39970,1
-Spain,38098,7
-Sweden,53050,6
-Switzerland,70793,4
-Ukraine,12944,15
-United Kingdom,45839,9
+Country,GDP per capita,Active Reactors,Reactors per
+Belarus,19751,1,0.011
+Belgium,51602,6,0.052
+Bulgaria,23432,2,0.029
+Czech Republic,39778,6,0.056
+Finland,48937,5,0.090
+France,45187,56,0.086
+Germany,52931,3,0.004
+Hungary,33518,4,0.041
+Netherlands,56761,1,0.006
+Romania,30855,2,0.010
+Russia,27970,37,0.025
+Slovakia,31498,4,0.073
+Slovenia,39970,1,0.048
+Spain,38098,7,0.015
+Sweden,53050,6,0.059
+Switzerland,70793,4,0.046
+Ukraine,12944,15,0.034
+United Kingdom,45839,9,0.013
